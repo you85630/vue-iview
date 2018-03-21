@@ -2,22 +2,17 @@
 	<div class="topexit">
 		<div class="topexit-main">
 			<router-link to="/user">{{user.name}}</router-link>
-			<a href="#/login" @click='logOut'>退出</a>
+			<a href="/" >退出</a>
 		</div>
 	</div>
 </template>
 
 <script>
-import { mapGetters, mapActions } from 'vuex'
+import { mapGetters } from 'vuex'
 export default {
   computed: {
     ...mapGetters([
       'user'
-    ])
-  },
-  methods: {
-    ...mapActions([
-      'logOut'
     ])
   }
 }

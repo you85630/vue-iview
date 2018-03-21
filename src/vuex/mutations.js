@@ -3,8 +3,7 @@ import router from 'router'
 
 export default {
   // 获取数据
-  [types.GET_ITEMS] (state, res) {
-    state.dataItems = res.data
+  [types.GET_ITEMS] (state) {
     if (state.nowPages === '') {
       router.push('/')
     }
