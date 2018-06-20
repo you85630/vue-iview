@@ -3,7 +3,7 @@ export default {
   dataItems: [
     {
       link: '/read',
-      title: '小思阅读',
+      title: '导航一',
       leftNav: [
         {
           name: '1',
@@ -170,7 +170,7 @@ export default {
     },
     {
       link: '/arts',
-      title: '小思艺术',
+      title: '导航二',
       leftNav: [
         {
           name: '1',
@@ -240,7 +240,7 @@ export default {
     },
     {
       link: '/learn',
-      title: '小思课程',
+      title: '导航三',
       leftNav: [
         {
           name: '1',
